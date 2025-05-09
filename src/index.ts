@@ -7,7 +7,7 @@ import path from 'path'
 dotenv.config()
 
 const EXCEL_FILE_NAME = process.env.EXCEL_FILE_NAME || ''
-const EXCEL_PATH = path.resolve(__dirname, `${EXCEL_FILE_NAME}.xlsx`)
+const EXCEL_PATH = path.resolve(`${__dirname}/files/excel`, `${EXCEL_FILE_NAME}.xlsx`)
 const MESSAGE = process.env.MESSAGE || ''
 
 const SHORT_DELAY = process.env.SHORT_DELAY || '25'
