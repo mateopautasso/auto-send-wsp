@@ -1,6 +1,5 @@
 import { Client, LocalAuth } from 'whatsapp-web.js'
 import qrcode from 'qrcode-terminal'
-import * as XLSX from 'xlsx'
 import xlsx from 'node-xlsx'
 import * as dotenv from 'dotenv'
 import path from 'path'
