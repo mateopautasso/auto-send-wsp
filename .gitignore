@@ -144,5 +144,6 @@ dist
 
 # Additional
 .xlsx
+.wwebjs_auth/
 
 # End of https://www.toptal.com/developers/gitignore/api/node
