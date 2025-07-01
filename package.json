@@ -6,8 +6,8 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "tsc",
-		"start": "node dist/main.js",
-		"script": "npx ts-node src/index.ts"
+		"start": "node dist/index.js",
+		"script": "rm -rf .wwebjs_auth && rm -rf .wwebjs_cache && npx ts-node src/index.ts"
 	},
 	"keywords": [],
 	"author": "",
@@ -16,9 +16,9 @@
 	"dependencies": {
 		"dotenv": "^16.5.0",
 		"node-xlsx": "^0.24.0",
-		"puppeteer-core": "^24.8.2",
+		"puppeteer-core": "^24.11.2",
 		"qrcode-terminal": "^0.12.0",
-		"whatsapp-web.js": "^1.27.0"
+		"whatsapp-web.js": "^1.31.0"
 	},
 	"devDependencies": {
 		"@types/node": "^22.15.17",
